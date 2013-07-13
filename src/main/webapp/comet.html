@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body class="lift:content_id=main">
+  <div id="main" class="lift:surround?with=default;at=content">
+    <lift:head>
+      <title>Comet Test</title>
+    </lift:head>
+
+    <div class="row-fluid">
+      <div class="lift:comet?type=TestComet;name=comet_test">
+        <div class="row-fluid">
+        Using JsCmds.RedirectTo <div id="redirect1">redirect1</div>
+        </div>
+        <div class="row-fluid">
+          Using JsCmds.RedirectTo plus passing a request var <div id="redirect2">redirect2</div>
+        </div>
+        <div class="row-fluid">
+          Using JsCmds.RedirectTo with fudged path, manually adding ctx <div id="redirect3">redirect3</div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
